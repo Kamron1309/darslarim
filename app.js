@@ -1,3 +1,4 @@
+// 28-misol leetcode.com
 function strStr(haystack, needle) {
     if (needle === "") return 0; // Agar igna bo'sh string bo'lsa, 0 qaytaramiz
     for (let i = 0; i <= haystack.length - needle.length; i++) {
@@ -11,7 +12,7 @@ console.log(strStr("sadbutsad", "sad")); // 0
 console.log(strStr("leetcode", "leeto")); // -1
 console.log(strStr("hello", "ll")); // 2
 console.log(strStr("mississippi", "issip")); // 4
-
+// 20-misol leetcode.com
 function isValid(s) {
     const stack = [];
     const pairs = {
@@ -39,7 +40,7 @@ console.log(isValid("(]"));      // false (Example 3)
 console.log(isValid("([])"));    // true (Example 4)
 console.log(isValid("([)]"));    // false (Example 5)
 
-
+// 14-misol leetcode.com
 function longestCommonPrefix(strs) {
     if (strs.length === 0) return ""; // Agar massiv bo'sh bo'lsa
 
